@@ -1,0 +1,128 @@
+_id: GHsPhoenixFlames
+name: Phoenix Flames
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>You immolate yourself, consuming your body in a searing cloud of holy
+      flames. All creatures within 20 feet of you must make a Constitution
+      saving throw or take 30d6 radiant damage and gain one level of
+      exhaustion. On a successful save, a creature takes half damage and is not
+      exhausted. If a target is killed by this damage, its body is
+      incinerated.</p><p>After 10 minutes, you rise from the ashes where you
+      originally cast the spell. You are returned fully to life as if you were
+      affected by a <em>true resurrection</em> spell.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 9
+  school: evo
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      damage:
+        onSave: half
+        parts:
+          - number: 30
+            denomination: 6
+            bonus: ''
+            types:
+              - radiant
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability: con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: phoenix-flames
+sort: 0
+flags: {}
+img: icons/magic/fire/explosion-fireball-large-purple-orange.webp
+effects: []
+folder: GHf9thLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsPhoenixFlames'

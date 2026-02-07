@@ -1,0 +1,112 @@
+_id: GHsWallOfGloom00
+name: Wall of Gloom
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>You create a wall of swirling grey energy, formed of the psychic pain of forlorn loss. The wall appears within range on a solid surface and lasts for the duration. You choose to make them all up to 60 feet long, 10 feet high, and 5 feet thick or a circle that has a 20-foot diameter and is up to 20 feet high and 5 feet thick—the wall blocks line of sight.</p><p>The wall radiates dim light out to a range of 100 feet. You and creatures you designate at the time you cast the spell can pass through and remain near the wall without harm. If another creature moves to within 20 feet of it or starts its turn there, the creature must succeed on a Charisma saving throw or become incapacitated for one round as they are overcome with a flood of negative feelings.</p><p>A creature can move through the wall, though the attempt is emotionally draining. The first time a creature enters the wall on a turn or ends its turn there, the creature must make a Charisma saving throw, taking one level of exhaustion on a failed save.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  target:
+    affects:
+      type: ''
+      choice: false
+    template:
+      type: wall
+      size: '60'
+      units: ft
+      contiguous: false
+  range:
+    value: '120'
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 8
+  school: con
+  materials:
+    value: A vial of tears
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+    - material
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability: cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: wall-of-gloom
+sort: 0
+flags: {}
+img: icons/magic/control/fear-fright-shadow-monster-green.webp
+effects: []
+folder: GHf8thLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsWallOfGloom00'

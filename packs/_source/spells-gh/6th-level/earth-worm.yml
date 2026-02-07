@@ -1,0 +1,129 @@
+_id: GHsEarthWorm0000
+name: Earth Worm
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>You transform the earth into a wormlike maw at an unoccupied point on the ground within range. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the worm. On a hit, the target takes piercing damage equal to 3d8 + your spellcasting ability modifier. If the target is a Large or smaller creature, it must succeed on a Dexterity saving throw or be swallowed by the worm. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the worm, and it takes 6d6 bludgeoning damage at the start of each of your turns.</p><p>Each round on its turn, a creature trapped within the worm can use an action to attempt to repeat the Dexterity saving throw to escape. A creature that succeeds this saving throw is regurgitated and falls prone in a space within 10 feet of the worm.</p><p>As a bonus action on your turn, you can move the worm up to 20 feet and repeat the attack against a creature within 5 feet of it.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 6
+  school: trs
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - number: 3
+            denomination: 8
+            bonus: ''
+            types:
+              - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: earth-worm
+sort: 0
+flags: {}
+img: icons/magic/earth/projectile-spiked-stone-boulder-orange.webp
+effects: []
+folder: GHf6thLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsEarthWorm0000'

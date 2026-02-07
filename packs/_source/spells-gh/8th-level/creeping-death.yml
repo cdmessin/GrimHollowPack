@@ -1,0 +1,107 @@
+_id: GHsCreepDeath000
+name: Creeping Death
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>As part of casting this spell, you must expend eight hit dice or the spell automatically fails. When you do, roll the eight hit dice expended to cast this spell and total them to determine the creature's creeping death threshold. While the spell remains active, if the creature's current hit points ever equal or are less than the creeping death threshold, the creature immediately dies.</p><p>As a bonus action on each of your turns while this spell is active, you can force the target to make a Constitution saving throw. On a failure, roll 2d6 and add the result to the creature's creeping death threshold. On a success, add half the result instead. If the creature succeeds on three saving throws, which do not have to be consecutive, this spell ends early.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 8
+  school: nec
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - somatic
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: creeping-death
+sort: 0
+flags: {}
+img: icons/magic/control/debuff-chains-ropes-purple.webp
+effects: []
+folder: GHf8thLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsCreepDeath000'
