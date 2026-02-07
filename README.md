@@ -7,7 +7,7 @@ This module contains homebrew content from the **Grim Hollow Players Guide** by 
 ## Requirements
 
 - Foundry VTT v12 or later
-- DnD5e system v4.0.0 or later
+- DnD5e system v2.3.1 or later
 
 ## Building from Source
 

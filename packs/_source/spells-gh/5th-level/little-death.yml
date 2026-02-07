@@ -116,7 +116,7 @@ _stats:
   duplicateSource: null
   coreVersion: '13.344'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 2.3.1
   createdTime: 1738886400000
   modifiedTime: 1738886400000
   lastModifiedBy: ghPackBuilder0000

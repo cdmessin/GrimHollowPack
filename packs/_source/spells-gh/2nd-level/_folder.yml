@@ -7,7 +7,7 @@ sort: 300000
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 2.3.1
   coreVersion: '13.344'
   createdTime: null
   modifiedTime: null
