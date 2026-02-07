@@ -1,0 +1,117 @@
+_id: GHsBloodletter00
+name: Bloodletter
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>You touch a nonmagical weapon. Until the spell ends, the next creature
+      hit by the weapon must succeed on a Constitution saving throw or receive
+      a festering wound. A creature with a festering wound takes 2d6 necrotic
+      damage at the beginning of its turn for the remainder of the spell's
+      duration. A creature can only have one festering wound at a
+      time.</p><p>Receiving at least 1 point of magical healing closes a
+      festering wound, ending the recurring damage and the
+      spell.</p><p><strong>At Higher Levels.</strong> When you cast this spell
+      using a spell slot of 3rd level or higher, you can increase the damage
+      dealt by a festering wound by 1d6 for each slot level above 2nd.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: object
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: touch
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 2
+  school: nec
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: bloodletter
+sort: 0
+flags: {}
+img: icons/magic/death/weapon-sword-skull-purple.webp
+effects: []
+folder: GHf2ndLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsBloodletter00'

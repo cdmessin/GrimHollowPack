@@ -1,0 +1,118 @@
+_id: GHsSenseLifeblod
+name: Sense Lifeblood
+ownership:
+  default: 0
+type: spell
+system:
+  description:
+    value: >-
+      <p>As part of casting this spell, you must expend two hit dice or the
+      spell automatically fails. If you do, you can sense the lifeblood
+      flowing within creatures you can see. For the duration of the spell, you
+      can sense whether and how two or more creatures you can see are related
+      biologically. In addition, you know whether the creature's current hit
+      points are equal to or below half their maximum hit points and, when you
+      deal damage to such a creature, you roll two additional dice to deal
+      bonus damage. The dice rolled to determine this bonus damage are the same
+      as the two you expended to cast this spell.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell with a 4th or 5th level spell
+      slot, you can maintain concentration on this spell for up to 1 hour.
+      When you cast this spell with a 6th level or higher spell slot, you can
+      maintain concentration on this spell for up to 8 hours.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 2
+  school: div
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  properties:
+    - somatic
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: sense-lifeblood
+sort: 0
+flags: {}
+img: icons/magic/perception/eye-ringed-glow-angry-large-red.webp
+effects: []
+folder: GHf2ndLevelSpell
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHsSenseLifeblod'
