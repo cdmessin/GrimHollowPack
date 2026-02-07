@@ -1,7 +1,7 @@
 {
   "id": "grim-hollow-pack",
   "title": "Grim Hollow Pack",
-  "description": "Spells and content from the Grim Hollow Players Guide for the DnD5e system in Foundry VTT.",
+  "description": "Spells, subclasses, races, weapons, and magic items from the Grim Hollow Players Guide for the DnD5e system in Foundry VTT.",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
@@ -44,6 +44,48 @@
           "sourceBook": "Grim Hollow Players Guide"
         }
       }
+    },
+    {
+      "name": "subclasses-gh",
+      "label": "Subclasses (Grim Hollow)",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/subclasses-gh",
+      "flags": {
+        "dnd5e": {
+          "sorting": "m",
+          "types": ["subclass"],
+          "sourceBook": "Grim Hollow Players Guide"
+        }
+      }
+    },
+    {
+      "name": "races-gh",
+      "label": "Races (Grim Hollow)",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/races-gh",
+      "flags": {
+        "dnd5e": {
+          "sorting": "m",
+          "types": ["feat"],
+          "sourceBook": "Grim Hollow Players Guide"
+        }
+      }
+    },
+    {
+      "name": "items-gh",
+      "label": "Items (Grim Hollow)",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/items-gh",
+      "flags": {
+        "dnd5e": {
+          "sorting": "m",
+          "types": ["weapon", "equipment", "consumable"],
+          "sourceBook": "Grim Hollow Players Guide"
+        }
+      }
     }
   ],
   "packFolders": [
@@ -51,7 +93,7 @@
       "name": "Grim Hollow",
       "color": "#4a0e0e",
       "sorting": "m",
-      "packs": ["spells-gh"]
+      "packs": ["spells-gh", "subclasses-gh", "races-gh", "items-gh"]
     }
   ]
 }

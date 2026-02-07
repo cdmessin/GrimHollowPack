@@ -1,0 +1,146 @@
+_id: GHmStitchNeedle0
+name: Stitching Needle
+ownership:
+  default: 0
+type: equipment
+system:
+  description:
+    value: >-
+      <p><em>Wondrous item, rare</em></p>
+      <p>This large silver needle trails a thread of glowing golden light. As
+      an action, you can touch the needle to a creature and magically stitch
+      its wounds closed. The creature regains 2d8 + 4 hit points, and any
+      bleeding or open wound effects on it end.</p>
+      <p>Alternatively, you can use the needle to reattach a severed body
+      part (such as a finger, leg, tail, or similar appendage) if you hold
+      the severed part to the stump. The needle magically reattaches it over
+      the course of 1 minute, during which time the creature must remain
+      still.</p>
+      <p>The needle has 3 charges and regains 1d3 expended charges daily at
+      dawn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: touch
+  uses:
+    max: '3'
+    recovery:
+      - period: dawn
+        type: formula
+        formula: 1d3
+    spent: 0
+  type:
+    value: trinket
+    subtype: ''
+    baseItem: ''
+  attunement: ''
+  rarity: rare
+  price:
+    value: 5000
+    denomination: gp
+  weight:
+    value: 0
+    units: lb
+  proficient: null
+  equipped: false
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  properties:
+    - mgc
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: Magically stitch wounds closed
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      healing:
+        custom:
+          enabled: false
+          formula: ''
+        types:
+          - healing
+        parts:
+          - number: 2
+            denomination: 8
+            bonus: '4'
+            types:
+              - healing
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: stitching-needle
+  magicalBonus: null
+sort: 0
+flags: {}
+img: icons/tools/sewing/needle-curved-gold.webp
+effects: []
+folder: GHfMagicItems0000
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHmStitchNeedle0'

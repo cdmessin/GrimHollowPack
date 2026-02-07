@@ -1,0 +1,136 @@
+_id: GHmHuntrMutagen0
+name: Hunter's Mutagen
+ownership:
+  default: 0
+type: consumable
+system:
+  description:
+    value: >-
+      <p><em>Potion, rare</em></p>
+      <p>This viscous, dark green liquid smells of iron and bitter herbs. When
+      you drink this mutagen, you undergo a painful transformation lasting 1
+      minute. For the next hour after the transformation, you gain the
+      following benefits:</p>
+      <ul>
+      <li>Your Strength and Constitution scores each increase by 2, to a
+      maximum of 22.</li>
+      <li>You gain darkvision out to a range of 60 feet. If you already have
+      darkvision, its range increases by 60 feet.</li>
+      <li>You have advantage on Wisdom (Perception) checks that rely on
+      smell.</li>
+      <li>Your melee weapon attacks deal an extra 1d4 poison damage.</li>
+      </ul>
+      <p>When the effect ends, you must succeed on a DC 15 Constitution saving
+      throw or gain one level of exhaustion.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: '1'
+    recovery: []
+    spent: 0
+    autoDestroy: true
+  type:
+    value: potion
+    subtype: ''
+    baseItem: ''
+  attunement: ''
+  rarity: rare
+  price:
+    value: 5000
+    denomination: gp
+  weight:
+    value: 0.5
+    units: lb
+  proficient: null
+  equipped: false
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  properties:
+    - mgc
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: Drink to gain enhanced physical abilities for 1 hour
+      duration:
+        units: hour
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: hunters-mutagen
+  magicalBonus: null
+sort: 0
+flags: {}
+img: icons/consumables/potions/potion-flask-corked-green.webp
+effects: []
+folder: GHfMagicItems0000
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHmHuntrMutagen0'

@@ -1,0 +1,134 @@
+_id: GHmSeeingGlass00
+name: Seeing Glass
+ownership:
+  default: 0
+type: equipment
+system:
+  description:
+    value: >-
+      <p><em>Wondrous item, very rare</em></p>
+      <p>This ornate hand mirror is framed in tarnished silver and set with
+      tiny amethysts. When you look into it and speak a command word as an
+      action, the mirror functions as a <em>crystal ball</em> (as the
+      <em>scrying</em> spell, spell save DC 17). You can use the mirror's
+      scrying ability for up to 10 minutes per use.</p>
+      <p>Additionally, if you hold the mirror up to a creature or object, you
+      can see its true form — the mirror reveals shapechangers in their
+      natural form, sees through illusions, and detects invisible creatures
+      and objects as if you had <em>truesight</em> to a range of 10 feet
+      through the mirror.</p>
+      <p>The scrying property of the mirror can be used once per day,
+      resetting at dawn. The truesight property functions at will.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: '1'
+    recovery:
+      - period: dawn
+        type: recoverAll
+    spent: 0
+  type:
+    value: trinket
+    subtype: ''
+    baseItem: ''
+  attunement: ''
+  rarity: veryRare
+  price:
+    value: 50000
+    denomination: gp
+  weight:
+    value: 1
+    units: lb
+  proficient: null
+  equipped: false
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  properties:
+    - mgc
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: Scry on a creature or location for up to 10 minutes
+      duration:
+        units: minute
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: seeing-glass
+  magicalBonus: null
+sort: 0
+flags: {}
+img: icons/tools/scripting/mirror-ornate-gold.webp
+effects: []
+folder: GHfMagicItems0000
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHmSeeingGlass00'

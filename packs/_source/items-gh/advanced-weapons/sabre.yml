@@ -1,0 +1,150 @@
+_id: GHwSabre000000000
+name: Sabre
+ownership:
+  default: 0
+type: weapon
+system:
+  description:
+    value: >-
+      <p>A curved, single-edged blade designed for slashing attacks, favored
+      by cavalry and duelists alike. Its balanced design allows for rapid,
+      precise strikes.</p>
+      <p><strong>Finesse.</strong> When making an attack with this weapon, you
+      can use your choice of your Strength or Dexterity modifier for the
+      attack and damage rolls. You must use the same modifier for both
+      rolls.</p>
+      <p><strong>Swift.</strong> When you take the Attack action on your turn
+      and make an attack with this weapon, you can use a bonus action to make
+      an additional melee attack with this weapon. You don't add your ability
+      modifier to the damage of this bonus attack.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: 5
+    units: ft
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: martialM
+    baseItem: ''
+  attunement: ''
+  rarity: common
+  price:
+    value: 500
+    denomination: gp
+  weight:
+    value: 3
+    units: lb
+  proficient: null
+  equipped: false
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  properties:
+    - fin
+  damage:
+    base:
+      number: 1
+      denomination: 8
+      bonus: ''
+      types:
+        - slashing
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      attack:
+        ability: dex
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: sabre
+  magicalBonus: null
+sort: 0
+flags: {}
+img: icons/weapons/swords/sword-guard-bronze-engraved.webp
+effects: []
+folder: GHfAdvancedWeapon
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHwSabre000000000'

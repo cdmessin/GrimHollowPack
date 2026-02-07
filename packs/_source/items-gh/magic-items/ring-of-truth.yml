@@ -1,0 +1,130 @@
+_id: GHmRingOfTruth00
+name: Ring of Truth
+ownership:
+  default: 0
+type: equipment
+system:
+  description:
+    value: >-
+      <p><em>Ring, uncommon (requires attunement)</em></p>
+      <p>This simple silver band is engraved with tiny runes that glow faintly
+      when a lie is spoken nearby. While wearing and attuned to this ring, you
+      can use an action to activate it. For the next 10 minutes, you know if a
+      creature within 30 feet of you speaks a deliberate lie. You sense that
+      the words are untrue, but you don't learn what the truth is. A creature
+      that is immune to being charmed is unaffected by this ring.</p>
+      <p>Once used, this property can't be activated again until the next
+      dawn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  target:
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: ''
+    units: self
+  uses:
+    max: '1'
+    recovery:
+      - period: dawn
+        type: recoverAll
+    spent: 0
+  type:
+    value: trinket
+    subtype: ''
+    baseItem: ''
+  attunement: required
+  rarity: uncommon
+  price:
+    value: 500
+    denomination: gp
+  weight:
+    value: 0
+    units: lb
+  proficient: null
+  equipped: false
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  properties:
+    - mgc
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: Detect lies within 30 feet for 10 minutes
+      duration:
+        units: minute
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: ring-of-truth
+  magicalBonus: null
+sort: 0
+flags: {}
+img: icons/equipment/finger/ring-band-engraved-gem-blue-silver.webp
+effects: []
+folder: GHfMagicItems0000
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHmRingOfTruth00'

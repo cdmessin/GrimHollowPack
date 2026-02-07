@@ -1,0 +1,157 @@
+_id: GHwRepeaterXbow0
+name: Repeater Crossbow (Hand)
+ownership:
+  default: 0
+type: weapon
+system:
+  description:
+    value: >-
+      <p>A compact hand crossbow fitted with an ingenious magazine mechanism
+      that holds multiple bolts, allowing rapid successive shots without the
+      need to manually reload between each shot.</p>
+      <p><strong>Magazine (3 bolts).</strong> This weapon can hold up to 3
+      bolts at a time. You can fire all loaded bolts without needing to
+      reload. Reloading the magazine requires an action or a bonus
+      action.</p>
+      <p><strong>Repeater.</strong> This weapon doesn't have the loading
+      property while its magazine contains ammunition.</p>
+      <p><strong>Light.</strong> This weapon is small and easy to handle,
+      making it ideal for two-weapon fighting.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: ''
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: 30
+    long: 120
+    units: ft
+  uses:
+    max: '3'
+    recovery:
+      - period: action
+        type: recoverAll
+    spent: 0
+  type:
+    value: martialR
+    baseItem: ''
+  attunement: ''
+  rarity: common
+  price:
+    value: 500
+    denomination: gp
+  weight:
+    value: 3
+    units: lb
+  proficient: null
+  equipped: false
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  properties:
+    - amm
+    - lgt
+  damage:
+    base:
+      number: 1
+      denomination: 6
+      bonus: ''
+      types:
+        - piercing
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: ammo
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      attack:
+        ability: dex
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      uses:
+        spent: 0
+        recovery: []
+      sort: 0
+  identifier: repeater-crossbow-hand
+  magicalBonus: null
+sort: 0
+flags: {}
+img: icons/weapons/crossbows/crossbow-simple-brown.webp
+effects: []
+folder: GHfAdvancedWeapon
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHwRepeaterXbow0'

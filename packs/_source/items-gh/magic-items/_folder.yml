@@ -1,0 +1,16 @@
+name: Magic Items
+type: Item
+_id: GHfMagicItems0000
+folder: null
+sorting: a
+sort: 200000
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ghPackBuilder0000
+color: '#4a0e0e'
+_key: '!folders!GHfMagicItems0000'

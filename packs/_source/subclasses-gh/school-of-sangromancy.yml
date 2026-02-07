@@ -1,0 +1,81 @@
+_id: GHcSangromancer0
+name: School of Sangromancy
+ownership:
+  default: 0
+type: subclass
+system:
+  description:
+    value: >-
+      <p>The School of Sangromancy focuses on the arcane power hidden within
+      blood. Sangromancers learn to harness their own vitality as a source of
+      magical power, fueling their spells with life force and gaining mastery
+      over the crimson fluid that flows through all living creatures.</p>
+
+      <h3>Sangromancy Savant</h3>
+      <p><em>2nd-level School of Sangromancy feature</em></p>
+      <p>Beginning when you select this school at 2nd level, the gold and time
+      you must spend to copy a spell from the necromancy or transmutation school
+      into your spellbook is halved.</p>
+
+      <h3>Full-Blooded</h3>
+      <p><em>2nd-level School of Sangromancy feature</em></p>
+      <p>Starting at 2nd level, when you expend hit dice as part of casting a
+      spell, you can add your Intelligence modifier to the number of hit points
+      you regain from each hit die spent (minimum of 1). Additionally, when you
+      cast a spell of 1st level or higher that deals necrotic damage or restores
+      hit points, you can expend one hit die, rolling it and regaining hit
+      points equal to the result plus your Intelligence modifier.</p>
+
+      <h3>Sanguine Vigor</h3>
+      <p><em>6th-level School of Sangromancy feature</em></p>
+      <p>Beginning at 6th level, when you are reduced to half your hit point
+      maximum or fewer, you gain a bonus to your spell save DC and spell attack
+      rolls equal to +1. This bonus increases to +2 when you are at or below
+      one quarter of your hit point maximum.</p>
+
+      <h3>Blood for Blood</h3>
+      <p><em>10th-level School of Sangromancy feature</em></p>
+      <p>Starting at 10th level, when a creature within 60 feet of you that you
+      can see takes damage, you can use your reaction to expend a hit die.
+      Roll the hit die and add your Intelligence modifier; the creature takes
+      additional necrotic damage equal to the total. You regain hit points equal
+      to half the necrotic damage dealt (rounded down). You can use this feature
+      a number of times equal to your Intelligence modifier (minimum of once),
+      and you regain all expended uses when you finish a long rest.</p>
+
+      <h3>Red Renewal</h3>
+      <p><em>14th-level School of Sangromancy feature</em></p>
+      <p>Beginning at 14th level, when you finish a short rest, you regain a
+      number of expended hit dice equal to half your wizard level (rounded
+      down), in addition to any hit dice you would normally regain. Furthermore,
+      when you cast a wizard spell of 5th level or lower that has a casting time
+      of one action, you can expend two hit dice to cast it as a bonus action
+      instead.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Grim Hollow Players Guide
+    page: ''
+    license: ''
+    rules: '2014'
+  identifier: school-of-sangromancy
+  classIdentifier: wizard
+  advancement: []
+  spellcasting:
+    progression: none
+    ability: ''
+sort: 0
+flags: {}
+img: icons/magic/life/heart-cross-purple-orange.webp
+effects: []
+folder: null
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  createdTime: 1738886400000
+  modifiedTime: 1738886400000
+  lastModifiedBy: ghPackBuilder0000
+  exportSource: null
+_key: '!items!GHcSangromancer0'
