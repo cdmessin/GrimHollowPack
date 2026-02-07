@@ -20,6 +20,17 @@ npm run build
 
 The compiled packs will be written to `packs/spells-gh/`.
 
+### Additional Build Commands
+
+| Command | Description |
+|---------|-------------|
+| `npm run build` | Compile YAML source files into LevelDB packs |
+| `npm run build:db` | Same as `build` |
+| `npm run build:json` | Extract existing LevelDB packs back to YAML (for editing) |
+| `npm run build:clean` | Clean and normalize source YAML files |
+
+After making changes to spell YAML files in `packs/_source/`, run `npm run build` to recompile the packs.
+
 ## Installing into Foundry VTT
 
 ### Local Install
