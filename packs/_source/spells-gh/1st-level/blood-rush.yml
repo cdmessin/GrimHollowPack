@@ -101,7 +101,7 @@ system:
   identifier: blood-rush
 sort: 0
 flags: {}
-img: icons/magic/death/hand-undead-gray.webp
+img: icons/magic/life/heart-cross-purple-orange.webp
 effects: []
 folder: GHf1stLevelSpell
 _stats:

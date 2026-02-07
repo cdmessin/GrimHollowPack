@@ -111,7 +111,7 @@ system:
   identifier: sanguine-poppet
 sort: 0
 flags: {}
-img: icons/magic/death/hand-undead-construct-purple.webp
+img: icons/magic/control/debuff-energy-hold-pink.webp
 effects: []
 folder: GHf3rdLevelSpell
 _stats:

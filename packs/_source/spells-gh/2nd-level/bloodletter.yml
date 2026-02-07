@@ -102,7 +102,7 @@ system:
   identifier: bloodletter
 sort: 0
 flags: {}
-img: icons/magic/death/weapon-sword-skull-purple.webp
+img: icons/skills/melee/strike-blade-scimitar-gray-red.webp
 effects: []
 folder: GHf2ndLevelSpell
 _stats:

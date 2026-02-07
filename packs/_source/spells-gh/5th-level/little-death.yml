@@ -109,7 +109,7 @@ system:
   identifier: little-death
 sort: 0
 flags: {}
-img: icons/magic/death/skull-shadow-dark-purple.webp
+img: icons/magic/control/debuff-energy-hold-levitate-pink.webp
 effects: []
 folder: GHf5thLevelSpell
 _stats:

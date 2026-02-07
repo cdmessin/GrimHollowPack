@@ -98,7 +98,7 @@ system:
   identifier: wilting-smite
 sort: 0
 flags: {}
-img: icons/magic/death/weapon-sword-skull-gray.webp
+img: icons/skills/melee/strike-blade-knife-white-red.webp
 effects: []
 folder: GHf2ndLevelSpell
 _stats:

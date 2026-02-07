@@ -110,7 +110,7 @@ system:
   identifier: mortality
 sort: 0
 flags: {}
-img: icons/magic/death/skull-humanoid-crown-white-blue.webp
+img: icons/magic/control/debuff-chains-ropes-red.webp
 effects: []
 folder: GHf5thLevelSpell
 _stats:

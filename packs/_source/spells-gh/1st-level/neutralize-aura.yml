@@ -101,7 +101,7 @@ system:
   identifier: neutralize-aura
 sort: 0
 flags: {}
-img: icons/magic/defensive/shield-barrier-blue.webp
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-blue.webp
 effects: []
 folder: GHf1stLevelSpell
 _stats:

@@ -99,7 +99,7 @@ system:
   identifier: theft-of-vitae
 sort: 0
 flags: {}
-img: icons/magic/death/hand-grip-glow-red.webp
+img: icons/magic/unholy/strike-beam-blood-large-red-green.webp
 effects: []
 folder: GHf2ndLevelSpell
 _stats:

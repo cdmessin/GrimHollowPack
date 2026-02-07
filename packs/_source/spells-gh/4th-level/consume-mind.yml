@@ -101,7 +101,7 @@ system:
   identifier: consume-mind
 sort: 0
 flags: {}
-img: icons/magic/death/skull-humanoid-purple-pink.webp
+img: icons/magic/control/fear-fright-monster-purple-blue.webp
 effects: []
 folder: GHf4thLevelSpell
 _stats:

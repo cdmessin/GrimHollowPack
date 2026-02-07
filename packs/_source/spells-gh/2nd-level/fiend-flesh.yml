@@ -97,7 +97,7 @@ system:
   identifier: fiend-flesh
 sort: 0
 flags: {}
-img: icons/magic/defensive/skin-scales-green.webp
+img: icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp
 effects: []
 folder: GHf2ndLevelSpell
 _stats:

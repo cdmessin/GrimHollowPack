@@ -12,6 +12,13 @@
       "name": "crmessin"
     }
   ],
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "Grim Hollow Players Guide": "Grim Hollow Players Guide"
+      }
+    }
+  },
   "relationships": {
     "systems": [
       {
@@ -33,7 +40,8 @@
       "flags": {
         "dnd5e": {
           "sorting": "m",
-          "types": ["spell"]
+          "types": ["spell"],
+          "sourceBook": "Grim Hollow Players Guide"
         }
       }
     }

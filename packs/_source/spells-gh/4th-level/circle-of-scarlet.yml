@@ -107,7 +107,7 @@ system:
   identifier: circle-of-scarlet
 sort: 0
 flags: {}
-img: icons/magic/death/barrier-fire-red.webp
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-red.webp
 effects: []
 folder: GHf4thLevelSpell
 _stats:

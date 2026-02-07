@@ -96,7 +96,7 @@ system:
   identifier: hunter-sense
 sort: 0
 flags: {}
-img: icons/magic/perception/eye-ringed-glow-angry-small.webp
+img: icons/magic/perception/eye-ringed-glow-angry-small-red.webp
 effects: []
 folder: GHfCantrips00000
 _stats:

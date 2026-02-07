@@ -116,7 +116,7 @@ system:
   identifier: ride-the-lightning
 sort: 0
 flags: {}
-img: icons/magic/lightning/bolt-strike-blue.webp
+img: icons/magic/lightning/bolt-forked-large-blue.webp
 effects: []
 folder: GHf4thLevelSpell
 _stats:

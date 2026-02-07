@@ -132,7 +132,7 @@ system:
   identifier: dark-sacrament
 sort: 0
 flags: {}
-img: icons/magic/death/weapon-dagger-skull-purple.webp
+img: icons/magic/fire/dagger-rune-enchant-flame-purple.webp
 effects: []
 folder: GHf4thLevelSpell
 _stats:

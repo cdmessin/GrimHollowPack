@@ -121,7 +121,7 @@ system:
   identifier: flash-fever
 sort: 0
 flags: {}
-img: icons/magic/fire/flame-burning-hand-brightened.webp
+img: icons/magic/fire/explosion-fireball-medium-orange.webp
 effects: []
 folder: GHf3rdLevelSpell
 _stats:

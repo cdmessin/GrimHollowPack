@@ -109,7 +109,7 @@ system:
   identifier: blood-bond
 sort: 0
 flags: {}
-img: icons/magic/death/hand-undead-connect-red.webp
+img: icons/magic/control/energy-stream-link-spiral-orange.webp
 effects: []
 folder: GHf3rdLevelSpell
 _stats:

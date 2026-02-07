@@ -105,7 +105,7 @@ system:
   identifier: crimson-lash
 sort: 0
 flags: {}
-img: icons/magic/death/weapon-scythe-skull-purple.webp
+img: icons/magic/unholy/strike-beam-blood-red-purple.webp
 effects: []
 folder: GHf1stLevelSpell
 _stats:
