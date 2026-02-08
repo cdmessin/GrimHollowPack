@@ -1,15 +1,15 @@
-2026/02/08-15:23:50.654962 173db7000 Recovering log #38
-2026/02/08-15:23:50.655361 173db7000 Delete type=0 #38
-2026/02/08-15:23:50.655390 173db7000 Delete type=3 #36
-2026/02/08-15:23:50.656141 17464f000 Level-0 table #44: started
-2026/02/08-15:23:50.656432 17464f000 Level-0 table #44: 14783 bytes OK
-2026/02/08-15:23:50.656495 17464f000 Delete type=0 #42
-2026/02/08-15:23:50.656535 17464f000 Manual compaction at level-0 from '!items!GHcGreenReaper00' @ 72057594037927935 : 1 .. '!items!GHcfVariegatVex0' @ 0 : 0; will stop at (end)
-2026/02/08-15:23:50.656547 17464f000 Manual compaction at level-1 from '!items!GHcGreenReaper00' @ 72057594037927935 : 1 .. '!items!GHcfVariegatVex0' @ 0 : 0; will stop at '!items!GHcfVariegatVex0' @ 150 : 1
-2026/02/08-15:23:50.656553 17464f000 Compacting 1@1 + 1@2 files
-2026/02/08-15:23:50.656827 17464f000 Generated table #45@1: 20 keys, 14783 bytes
-2026/02/08-15:23:50.656833 17464f000 Compacted 1@1 + 1@2 files => 14783 bytes
-2026/02/08-15:23:50.656872 17464f000 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/02/08-15:23:50.656898 17464f000 Delete type=2 #40
-2026/02/08-15:23:50.657034 17464f000 Delete type=2 #44
-2026/02/08-15:23:50.657080 17464f000 Manual compaction at level-1 from '!items!GHcfVariegatVex0' @ 150 : 1 .. '!items!GHcfVariegatVex0' @ 0 : 0; will stop at (end)
+2026/02/08-15:24:22.539682 17432f000 Recovering log #43
+2026/02/08-15:24:22.540052 17432f000 Delete type=3 #41
+2026/02/08-15:24:22.540090 17432f000 Delete type=0 #43
+2026/02/08-15:24:22.540682 1743bb000 Level-0 table #49: started
+2026/02/08-15:24:22.541037 1743bb000 Level-0 table #49: 14783 bytes OK
+2026/02/08-15:24:22.541125 1743bb000 Delete type=0 #47
+2026/02/08-15:24:22.541182 1743bb000 Manual compaction at level-0 from '!items!GHcGreenReaper00' @ 72057594037927935 : 1 .. '!items!GHcfVariegatVex0' @ 0 : 0; will stop at (end)
+2026/02/08-15:24:22.541199 1743bb000 Manual compaction at level-1 from '!items!GHcGreenReaper00' @ 72057594037927935 : 1 .. '!items!GHcfVariegatVex0' @ 0 : 0; will stop at '!items!GHcfVariegatVex0' @ 170 : 1
+2026/02/08-15:24:22.541206 1743bb000 Compacting 1@1 + 1@2 files
+2026/02/08-15:24:22.541531 1743bb000 Generated table #50@1: 20 keys, 14783 bytes
+2026/02/08-15:24:22.541539 1743bb000 Compacted 1@1 + 1@2 files => 14783 bytes
+2026/02/08-15:24:22.541588 1743bb000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/08-15:24:22.541620 1743bb000 Delete type=2 #49
+2026/02/08-15:24:22.541659 1743bb000 Delete type=2 #45
+2026/02/08-15:24:22.541745 1743bb000 Manual compaction at level-1 from '!items!GHcfVariegatVex0' @ 170 : 1 .. '!items!GHcfVariegatVex0' @ 0 : 0; will stop at (end)

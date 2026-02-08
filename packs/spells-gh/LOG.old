@@ -1,15 +1,15 @@
-2026/02/08-15:21:51.082227 1718c3000 Recovering log #65
-2026/02/08-15:21:51.082759 1718c3000 Delete type=0 #65
-2026/02/08-15:21:51.082791 1718c3000 Delete type=3 #63
-2026/02/08-15:21:51.083920 17194f000 Level-0 table #71: started
-2026/02/08-15:21:51.084457 17194f000 Level-0 table #71: 54050 bytes OK
-2026/02/08-15:21:51.084556 17194f000 Delete type=0 #69
-2026/02/08-15:21:51.084623 17194f000 Manual compaction at level-0 from '!folders!GHf1stLevelSpell' @ 72057594037927935 : 1 .. '!items!GHsWrack00000000' @ 0 : 0; will stop at (end)
-2026/02/08-15:21:51.084642 17194f000 Manual compaction at level-1 from '!folders!GHf1stLevelSpell' @ 72057594037927935 : 1 .. '!items!GHsWrack00000000' @ 0 : 0; will stop at '!items!GHsWrack00000000' @ 641 : 1
-2026/02/08-15:21:51.084650 17194f000 Compacting 1@1 + 1@2 files
-2026/02/08-15:21:51.085332 17194f000 Generated table #72@1: 52 keys, 54050 bytes
-2026/02/08-15:21:51.085343 17194f000 Compacted 1@1 + 1@2 files => 54050 bytes
-2026/02/08-15:21:51.085401 17194f000 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/02/08-15:21:51.085452 17194f000 Delete type=2 #71
-2026/02/08-15:21:51.085500 17194f000 Delete type=2 #67
-2026/02/08-15:21:51.085661 17194f000 Manual compaction at level-1 from '!items!GHsWrack00000000' @ 641 : 1 .. '!items!GHsWrack00000000' @ 0 : 0; will stop at (end)
+2026/02/08-15:23:50.643602 173db7000 Recovering log #70
+2026/02/08-15:23:50.643940 173db7000 Delete type=0 #70
+2026/02/08-15:23:50.643972 173db7000 Delete type=3 #68
+2026/02/08-15:23:50.645641 17464f000 Level-0 table #76: started
+2026/02/08-15:23:50.646408 17464f000 Level-0 table #76: 54050 bytes OK
+2026/02/08-15:23:50.646513 17464f000 Delete type=0 #74
+2026/02/08-15:23:50.646624 17464f000 Manual compaction at level-0 from '!folders!GHf1stLevelSpell' @ 72057594037927935 : 1 .. '!items!GHsWrack00000000' @ 0 : 0; will stop at (end)
+2026/02/08-15:23:50.646639 17464f000 Manual compaction at level-1 from '!folders!GHf1stLevelSpell' @ 72057594037927935 : 1 .. '!items!GHsWrack00000000' @ 0 : 0; will stop at '!items!GHsWrack00000000' @ 693 : 1
+2026/02/08-15:23:50.646645 17464f000 Compacting 1@1 + 1@2 files
+2026/02/08-15:23:50.647420 17464f000 Generated table #77@1: 52 keys, 54050 bytes
+2026/02/08-15:23:50.647432 17464f000 Compacted 1@1 + 1@2 files => 54050 bytes
+2026/02/08-15:23:50.647499 17464f000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/08-15:23:50.647540 17464f000 Delete type=2 #76
+2026/02/08-15:23:50.647601 17464f000 Delete type=2 #72
+2026/02/08-15:23:50.647898 17464f000 Manual compaction at level-1 from '!items!GHsWrack00000000' @ 693 : 1 .. '!items!GHsWrack00000000' @ 0 : 0; will stop at (end)
