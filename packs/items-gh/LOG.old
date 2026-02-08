@@ -1,15 +1,15 @@
-2026/02/08-15:12:18.009979 16ea67000 Recovering log #28
-2026/02/08-15:12:18.010985 16ea67000 Delete type=0 #28
-2026/02/08-15:12:18.011016 16ea67000 Delete type=3 #26
-2026/02/08-15:12:18.012436 170317000 Level-0 table #34: started
-2026/02/08-15:12:18.012739 170317000 Level-0 table #34: 13758 bytes OK
-2026/02/08-15:12:18.012801 170317000 Delete type=0 #32
-2026/02/08-15:12:18.012845 170317000 Manual compaction at level-0 from '!folders!GHfAdvancedWeapon' @ 72057594037927935 : 1 .. '!items!GHwSabre000000000' @ 0 : 0; will stop at (end)
-2026/02/08-15:12:18.012862 170317000 Manual compaction at level-1 from '!folders!GHfAdvancedWeapon' @ 72057594037927935 : 1 .. '!items!GHwSabre000000000' @ 0 : 0; will stop at '!items!GHwSabre000000000' @ 78 : 1
-2026/02/08-15:12:18.012868 170317000 Compacting 1@1 + 1@2 files
-2026/02/08-15:12:18.013148 170317000 Generated table #35@1: 12 keys, 13758 bytes
-2026/02/08-15:12:18.013153 170317000 Compacted 1@1 + 1@2 files => 13758 bytes
-2026/02/08-15:12:18.013194 170317000 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/02/08-15:12:18.013221 170317000 Delete type=2 #34
-2026/02/08-15:12:18.013261 170317000 Delete type=2 #30
-2026/02/08-15:12:18.013412 170317000 Manual compaction at level-1 from '!items!GHwSabre000000000' @ 78 : 1 .. '!items!GHwSabre000000000' @ 0 : 0; will stop at (end)
+2026/02/08-15:21:51.052917 1718c3000 Recovering log #33
+2026/02/08-15:21:51.054092 1718c3000 Delete type=3 #31
+2026/02/08-15:21:51.054143 1718c3000 Delete type=0 #33
+2026/02/08-15:21:51.055590 17194f000 Level-0 table #39: started
+2026/02/08-15:21:51.056019 17194f000 Level-0 table #39: 13758 bytes OK
+2026/02/08-15:21:51.056128 17194f000 Delete type=0 #37
+2026/02/08-15:21:51.056232 17194f000 Manual compaction at level-0 from '!folders!GHfAdvancedWeapon' @ 72057594037927935 : 1 .. '!items!GHwSabre000000000' @ 0 : 0; will stop at (end)
+2026/02/08-15:21:51.056263 17194f000 Manual compaction at level-1 from '!folders!GHfAdvancedWeapon' @ 72057594037927935 : 1 .. '!items!GHwSabre000000000' @ 0 : 0; will stop at '!items!GHwSabre000000000' @ 90 : 1
+2026/02/08-15:21:51.056273 17194f000 Compacting 1@1 + 1@2 files
+2026/02/08-15:21:51.056634 17194f000 Generated table #40@1: 12 keys, 13758 bytes
+2026/02/08-15:21:51.056641 17194f000 Compacted 1@1 + 1@2 files => 13758 bytes
+2026/02/08-15:21:51.056689 17194f000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/08-15:21:51.056722 17194f000 Delete type=2 #39
+2026/02/08-15:21:51.056779 17194f000 Delete type=2 #35
+2026/02/08-15:21:51.058321 17194f000 Manual compaction at level-1 from '!items!GHwSabre000000000' @ 90 : 1 .. '!items!GHwSabre000000000' @ 0 : 0; will stop at (end)

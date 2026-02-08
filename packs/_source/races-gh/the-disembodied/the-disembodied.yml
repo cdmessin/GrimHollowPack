@@ -79,6 +79,22 @@ system:
   requirements: ''
   properties: []
   advancement:
+    - _id: ghadvDisembASI00
+      type: AbilityScoreImprovement
+      configuration:
+        points: 0
+        fixed:
+          str: 0
+          dex: 1
+          con: 0
+          int: 2
+          wis: 0
+          cha: 0
+        cap: 2
+      value:
+        type: asi
+      level: 0
+      title: Ability Score Increase
     - _id: ghadvDisembSize0
       type: Size
       configuration:
@@ -123,46 +139,7 @@ system:
 sort: 0
 flags: {}
 img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
-effects:
-  - _id: GHrDisembodied01
-    name: Ability Score Increase
-    origin: Item.GHrDisembodied00
-    transfer: true
-    disabled: false
-    duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: Your Intelligence score increases by 2, and your Dexterity score increases by 1.
-    statuses: []
-    changes:
-      - key: system.abilities.int.value
-        mode: 2
-        value: '2'
-        priority: null
-      - key: system.abilities.dex.value
-        mode: 2
-        value: '1'
-        priority: null
-    flags: {}
-    img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
-    type: base
-    system: {}
-    sort: 0
-    _stats:
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 2.3.1
-      createdTime: 1738886400000
-      modifiedTime: 1738886400000
-      lastModifiedBy: ghPackBuilder0000
-      duplicateSource: null
-      exportSource: null
-    _key: '!items.effects!GHrDisembodied00.GHrDisembodied01'
+effects: []
 folder: null
 _stats:
   duplicateSource: null
