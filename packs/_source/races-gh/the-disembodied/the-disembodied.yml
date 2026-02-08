@@ -79,6 +79,29 @@ system:
   requirements: ''
   properties: []
   advancement:
+    - _id: ghadvDisembSize0
+      type: Size
+      configuration:
+        sizes:
+          - med
+      value: {}
+      level: 0
+      title: Size
+    - _id: ghadvDisembTrait
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - dr:necrotic
+          - languages:common
+        choices:
+          - count: 1
+            pool:
+              - languages:*
+      value: {}
+      level: 0
+      title: Traits
     - _id: ghadv00disemb000
       type: ItemGrant
       configuration:

@@ -21,6 +21,47 @@ system:
   identifier: green-reaper
   classIdentifier: ranger
   advancement:
+    - _id: ghadvGRScaleEnv0
+      type: ScaleValue
+      configuration:
+        identifier: envenomed-damage
+        type: dice
+        distance:
+          units: ''
+        scale:
+          3:
+            number: 1
+            faces: 6
+          11:
+            number: 2
+            faces: 6
+      value: {}
+      title: Envenomed Attack Damage
+    - _id: ghadvGRTraitRes0
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - dr:poison
+        choices: []
+      value: {}
+      level: 3
+      title: Poison Resistance
+    - _id: ghadvGRTraitTool
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - tool:pois
+        choices:
+          - count: 1
+            pool:
+              - tool:herb
+      value: {}
+      level: 3
+      title: Tool Proficiency
     - _id: ghadv00greaper003
       type: ItemGrant
       configuration:

@@ -89,9 +89,9 @@ system:
         critical:
           bonus: ''
         parts:
-          - number: 1
-            denomination: 6
-            bonus: ''
+          - custom:
+              enabled: true
+              formula: '@scale.green-reaper.envenomed-damage'
             types:
               - poison
       uses:

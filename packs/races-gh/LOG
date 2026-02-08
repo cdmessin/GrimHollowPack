@@ -1,15 +1,15 @@
-2026/02/08-15:12:18.017241 16ea67000 Recovering log #28
-2026/02/08-15:12:18.017759 16ea67000 Delete type=0 #28
-2026/02/08-15:12:18.017786 16ea67000 Delete type=3 #26
-2026/02/08-15:12:18.018641 170317000 Level-0 table #34: started
-2026/02/08-15:12:18.019168 170317000 Level-0 table #34: 5693 bytes OK
-2026/02/08-15:12:18.019245 170317000 Delete type=0 #32
-2026/02/08-15:12:18.019820 170317000 Manual compaction at level-0 from '!items!GHrDisembodied00' @ 72057594037927935 : 1 .. '!items.effects!GHrfPlanarOut000.GHrfPlanarOut001' @ 0 : 0; will stop at (end)
-2026/02/08-15:12:18.019844 170317000 Manual compaction at level-1 from '!items!GHrDisembodied00' @ 72057594037927935 : 1 .. '!items.effects!GHrfPlanarOut000.GHrfPlanarOut001' @ 0 : 0; will stop at '!items.effects!GHrfPlanarOut000.GHrfPlanarOut001' @ 29 : 1
-2026/02/08-15:12:18.019856 170317000 Compacting 1@1 + 1@2 files
-2026/02/08-15:12:18.020274 170317000 Generated table #35@1: 7 keys, 5693 bytes
-2026/02/08-15:12:18.020288 170317000 Compacted 1@1 + 1@2 files => 5693 bytes
-2026/02/08-15:12:18.020348 170317000 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/02/08-15:12:18.020392 170317000 Delete type=2 #34
-2026/02/08-15:12:18.020448 170317000 Delete type=2 #30
-2026/02/08-15:12:18.020554 170317000 Manual compaction at level-1 from '!items.effects!GHrfPlanarOut000.GHrfPlanarOut001' @ 29 : 1 .. '!items.effects!GHrfPlanarOut000.GHrfPlanarOut001' @ 0 : 0; will stop at (end)
+2026/02/08-15:21:51.061456 1718c3000 Recovering log #33
+2026/02/08-15:21:51.061916 1718c3000 Delete type=3 #31
+2026/02/08-15:21:51.061955 1718c3000 Delete type=0 #33
+2026/02/08-15:21:51.062845 17194f000 Level-0 table #39: started
+2026/02/08-15:21:51.063083 17194f000 Level-0 table #39: 5851 bytes OK
+2026/02/08-15:21:51.063208 17194f000 Delete type=0 #37
+2026/02/08-15:21:51.063273 17194f000 Manual compaction at level-0 from '!items!GHrDisembodied00' @ 72057594037927935 : 1 .. '!items.effects!GHrfPlanarOut000.GHrfPlanarOut001' @ 0 : 0; will stop at (end)
+2026/02/08-15:21:51.063290 17194f000 Manual compaction at level-1 from '!items!GHrDisembodied00' @ 72057594037927935 : 1 .. '!items.effects!GHrfPlanarOut000.GHrfPlanarOut001' @ 0 : 0; will stop at '!items.effects!GHrfPlanarOut000.GHrfPlanarOut001' @ 36 : 1
+2026/02/08-15:21:51.063298 17194f000 Compacting 1@1 + 1@2 files
+2026/02/08-15:21:51.063527 17194f000 Generated table #40@1: 7 keys, 5851 bytes
+2026/02/08-15:21:51.063536 17194f000 Compacted 1@1 + 1@2 files => 5851 bytes
+2026/02/08-15:21:51.063590 17194f000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/08-15:21:51.063629 17194f000 Delete type=2 #39
+2026/02/08-15:21:51.063674 17194f000 Delete type=2 #35
+2026/02/08-15:21:51.063830 17194f000 Manual compaction at level-1 from '!items.effects!GHrfPlanarOut000.GHrfPlanarOut001' @ 36 : 1 .. '!items.effects!GHrfPlanarOut000.GHrfPlanarOut001' @ 0 : 0; will stop at (end)
